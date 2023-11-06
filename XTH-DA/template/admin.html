@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Thư Viện Zero</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid ">
+         <div class="row">
+        <!-- menu -->
+        <div class="col-md-2 p-0 bg-primary collapse collapse-horizontal show" style="min-height: 100vh;" id="openMenu">
+            <strong class="text-center d-block p-3 text-white">TRANG QUẢN LÝ</strong>
+            <div class="list-group list-group-item-primary m-3">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                    Tổng Quan
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Tài Khoản</a>
+                <a href="#" class="list-group-item list-group-item-action">Chủ đề</a>
+                <a href="#" class="list-group-item list-group-item-action">Sách</a>
+                <a href="#" class="list-group-item list-group-item-action">Mượn/Trả</a>
+            </div>
+        </div>
+        <!-- content -->
+        <div class="col-md p-0">
+            <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark";>
+  <div class="container-fluid">
+    <button class="btn btn-outline-light me-2" type="button" data-bs-toggle="collapse" data-bs-target="#openMenu" aria-expanded="false" aria-controls="openMenu">
+    =
+  </button>
+    <a class="navbar-brand" href="#">Zero</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Xin chào, Hưng
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Xem trang chủ</a></li>
+            <li><a class="dropdown-item" href="#">Đăng xuất</a></li>
+            
+          </ul>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+            </nav>
+            <div class="container">
+                <h2 class="my-3 ">Tổng quan</h2>
+                <div class="row">
+                  <!-- đầu sách -->
+                    <div class="col-md-3">    
+                      <div class="card text-bg-primary mb-3">
+                          <div class="card-body">
+                          <h5 class="card-title">Đầu Sách</h5>
+                          <p class="card-text fs-1 text-center">2.540</p>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- bạn đọc -->
+                  <div class="col-md-3">    
+                      <div class="card text-bg-success mb-3">
+                          <div class="card-body">
+                          <h5 class="card-title">Bạn đọc</h5>
+                          <p class="card-text fs-1 text-center">1.250.364</p>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- chủ đề -->
+                  <div class="col-md-3">    
+                      <div class="card text-bg-info mb-3">
+                          <div class="card-body">
+                            <h5 class="card-title">Chủ đề</h5>
+                            <p class="card-text fs-1 text-center">25</p>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Lượt Mượn -->
+                  <div class="col-md-3">    
+                    <div class="card text-bg-danger mb-3">
+                        <div class="card-body">
+                          <h5 class="card-title">Lượt Mượn</h5>
+                          <p class="card-text fs-1 text-center">29.390</p>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+
+            </div>
+        </div>
+     </div>
+    </div>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
